@@ -1,0 +1,18 @@
+@font-face {
+  font-family: lichess-font;
+  src: url(./static/assets/font.woff2);
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: lichess-font;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #161512;
+}
