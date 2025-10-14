@@ -1,0 +1,51 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class MainUi(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(611, 301)
+        Dialog.setMinimumSize(QtCore.QSize(611, 301))
+        Dialog.setMaximumSize(QtCore.QSize(611, 301))
+        self.verticalLayoutWidget = QtWidgets.QWidget(Dialog)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 10, 611, 251))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label = QtWidgets.QLabel(self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(17)
+        self.label.setFont(font)
+        self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.label.setStyleSheet("")
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setContentsMargins(117, 0, 117, -1)
+        self.horizontalLayout.setSpacing(71)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.decrypt = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.decrypt.setFont(font)
+        self.decrypt.setObjectName("decrypt")
+        self.horizontalLayout.addWidget(self.decrypt)
+        self.encrypt = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.encrypt.setFont(font)
+        self.encrypt.setObjectName("encrypt")
+        self.horizontalLayout.addWidget(self.encrypt)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        self.label.setText(_translate("Dialog", "Caesar Encryption Pattern"))
+        self.decrypt.setText(_translate("Dialog", "Decrypt"))
+        self.encrypt.setText(_translate("Dialog", "Encrypt"))
