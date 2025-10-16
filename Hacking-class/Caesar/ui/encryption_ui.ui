@@ -30,7 +30,7 @@
     <rect>
      <x>-1</x>
      <y>-1</y>
-     <width>812</width>
+     <width>865</width>
      <height>411</height>
     </rect>
    </property>
@@ -49,9 +49,146 @@
       <property name="spacing">
        <number>7</number>
       </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="topMargin">
        <number>0</number>
       </property>
+      <item>
+       <widget class="QComboBox" name="shift_value">
+        <item>
+         <property name="text">
+          <string>Shift 0</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 9</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 11</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 13</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 14</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 15</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 16</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 17</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 18</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 19</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 21</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 22</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 23</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shift 25</string>
+         </property>
+        </item>
+       </widget>
+      </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2"/>
       </item>
