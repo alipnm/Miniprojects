@@ -12,7 +12,9 @@ class MainForm(QDialog):
         self.ui.decrypt.clicked.connect(self.decrypt)
 
     def encrypt(self):
-        pass
+        self.accept()
+        self.close()
 
     def decrypt(self):
-        pass
+        self.reject()
+        self.close()

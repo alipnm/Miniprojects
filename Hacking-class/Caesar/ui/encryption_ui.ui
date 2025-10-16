@@ -25,204 +25,213 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="verticalLayoutWidget">
+  <widget class="QComboBox" name="shift_value">
    <property name="geometry">
     <rect>
-     <x>-1</x>
-     <y>-1</y>
-     <width>865</width>
-     <height>411</height>
+     <x>90</x>
+     <y>110</y>
+     <width>104</width>
+     <height>33</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <property name="spacing">
-     <number>7</number>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="currentText">
+    <string>Shift 1</string>
+   </property>
+   <property name="maxCount">
+    <number>30</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Shift 0</string>
     </property>
-    <property name="leftMargin">
-     <number>0</number>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 1</string>
     </property>
-    <property name="rightMargin">
-     <number>0</number>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 2</string>
     </property>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <property name="spacing">
-       <number>7</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QComboBox" name="shift_value">
-        <item>
-         <property name="text">
-          <string>Shift 0</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 1</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 2</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 3</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 4</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 5</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 6</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 7</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 8</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 9</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 10</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 11</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 12</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 13</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 14</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 15</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 16</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 17</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 18</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 19</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 20</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 21</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 22</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 23</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 24</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Shift 25</string>
-         </property>
-        </item>
-       </widget>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2"/>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <property name="leftMargin">
-       <number>335</number>
-      </property>
-      <property name="topMargin">
-       <number>80</number>
-      </property>
-      <property name="rightMargin">
-       <number>335</number>
-      </property>
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QPushButton" name="pushButton">
-        <property name="font">
-         <font>
-          <pointsize>17</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>Encrypt</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shift 25</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>90</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Text:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>110</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="encryption">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Encrypt</string>
+   </property>
   </widget>
  </widget>
  <resources/>
