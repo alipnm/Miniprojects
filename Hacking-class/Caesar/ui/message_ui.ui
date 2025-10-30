@@ -43,7 +43,7 @@
        </font>
       </property>
       <property name="text">
-       <string>The result is: </string>
+       <string>The result is:</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

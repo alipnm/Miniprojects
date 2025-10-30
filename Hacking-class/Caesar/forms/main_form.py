@@ -13,8 +13,6 @@ class MainForm(QDialog):
 
     def encrypt(self):
         self.accept()
-        self.close()
 
     def decrypt(self):
         self.reject()
-        self.close()
