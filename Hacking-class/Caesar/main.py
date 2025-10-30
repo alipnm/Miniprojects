@@ -13,4 +13,3 @@ if run == MainForm.Accepted:
     encryption_window.exec_()
 elif run == MainForm.Rejected:
     pass
- 
