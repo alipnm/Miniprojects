@@ -1,5 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
+from forms.decryption_form import DecryptionForm
 from forms.encryption_form import EncryptionForm
 from forms.main_form import MainForm
 
@@ -12,4 +13,5 @@ if run == MainForm.Accepted:
     encryption_window = EncryptionForm()
     encryption_window.exec_()
 elif run == MainForm.Rejected:
-    pass
+    decryption_window = DecryptionForm()
+    decryption_window.exec_()

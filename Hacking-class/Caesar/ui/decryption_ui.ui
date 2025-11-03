@@ -212,7 +212,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QPushButton" name="encryption">
+  <widget class="QPushButton" name="decrypt">
    <property name="geometry">
     <rect>
      <x>310</x>
