@@ -1,0 +1,14 @@
+@font-face {
+  font-family: sahel-heading;
+  src: url(./assets/font/Sahel-Bold.woff);
+}
+@font-face {
+  font-family: sahel;
+  src: url(./assets/font/Sahel.woff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
